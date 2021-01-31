@@ -3,7 +3,7 @@ import Footer from '../components/footer';
 
 export default function Layout({ children }) {
   return (
-    <div className="box-border text-xl sm:text-2xl tracking-tighter">
+    <div className="container mx-auto text-blue-800">
       <Header />
       {children}
       <Footer />
