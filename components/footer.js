@@ -3,22 +3,16 @@ import SocialNetworks from './social-networks';
 const Footer = () => {
   return (
     <footer>
-      <div className="flex justify-end">
-        <a href="#" className="text-sm hover:underline">
-          To Top
+      <div className="flex justify-end mt-8">
+        <a href="#" className="py-2 px-1 text-sm sm:text-lg hover:underline">
+          Scroll To Top
         </a>
       </div>
-      <div className="py-8 bg-gray-500 border">
-        <div className="flex flex-col justify-center items-center">
-          <div>
-            <SocialNetworks />
-          </div>
-          <div className="py-1 text-sm sm:text-xl">
-            <h3 className="text-sm text-center font-bold">
-              eduardo.vedes@gmail.com
-            </h3>
-          </div>
-        </div>
+      <div className="flex flex-col justify-center items-center h-32 bg-gray-500 border">
+        <SocialNetworks />
+        <p className="font-bold text-sm sm:text-xl font-bold">
+          eduardo.vedes@gmail.com
+        </p>
       </div>
     </footer>
   );

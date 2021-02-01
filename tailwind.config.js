@@ -8,12 +8,22 @@ module.exports = {
     colors: {
       blue: {
         ...colors.blue,
+        400: '#1DA1F2',
         500: '#3B3B4F',
         800: '#0A0A23'
       },
       gray: {
         ...colors.gray,
         500: '#EEEEF0'
+      },
+      red: {
+        ...colors.red
+      },
+      purple: {
+        ...colors.purple
+      },
+      white: {
+        ...colors.white
       }
     }
   },
