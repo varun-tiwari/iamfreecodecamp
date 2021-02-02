@@ -10,9 +10,6 @@ const Footer = () => {
       </div>
       <div className="flex flex-col justify-center items-center h-32 bg-gray-500 border">
         <SocialNetworks />
-        <p className="font-bold text-sm sm:text-xl font-bold">
-          eduardo.vedes@gmail.com
-        </p>
       </div>
     </footer>
   );
