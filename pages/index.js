@@ -1,10 +1,9 @@
 import Head from 'next/head';
 import Layout from '../components/layout';
-import Twitter from '../public/assets/icons/twitter.svg';
 
 const Title = ({ children }) => {
   return (
-    <div className="py-4 mt-8 text-4xl bg-gray-100 text-blue-500 border p-2">
+    <div className="py-4 mt-8 text-2xl sm:text-4xl bg-gray-100 text-blue-500 border p-2">
       {children}
     </div>
   );
@@ -57,7 +56,7 @@ export default function Home() {
             it was meaningful to share it with the world.
           </div>
           <Title>The Challenge</Title>
-          <div className="text-3xl p-12 mt-8 border bg-blue-500 text-gray-500">
+          <div className="text-2xl sm:text-3xl p-12 mt-8 border bg-blue-500 text-gray-500">
             The main idea behind this (triple) challenge is to increase
             sustainability of the nonprofit and invest our time contributing to
             freeCodeCamp in 3 distinct vectors:
@@ -114,8 +113,21 @@ export default function Home() {
               <div>
                 This way we can motivate more and more people to do it with us.
               </div>
-              <div className="flex justify-end pt-6">
-                <Twitter className="h-24 w-24 hover:text-blue-400 transition duration-300 ease-in-out cursor-pointer" />
+              <div className="flex justify-end">
+                <a
+                  href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+                  className="twitter-share-button"
+                  data-size="large"
+                  data-text="#iAmFreeCodeCamp Challenge 1 accepted! This year I&#39;m donating $XX monthly to improve nonprofit sustainability and help more students to learn how to code during these hard times. Thank you @freeCodeCamp, thank you @ossia! 💙"
+                  data-url="https://iamfreecodecamp.org"
+                  data-hashtags="iAmFreeCodeCamp #freeCodeCamp"
+                  data-show-count="false">
+                  Tweet
+                </a>
+                <script
+                  async
+                  src="https://platform.twitter.com/widgets.js"
+                  charset="utf-8"></script>
               </div>
             </div>
           </div>
@@ -150,8 +162,21 @@ export default function Home() {
               This way we can provide a more personal support to help surpassing
               the growing pains of learning to code.
             </div>
-            <div className="flex justify-end pt-6">
-              <Twitter className="h-24 w-24 hover:text-blue-400 transition duration-300 ease-in-out cursor-pointer" />
+            <div className="flex justify-end">
+              <a
+                href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+                className="twitter-share-button"
+                data-size="large"
+                data-text="#iAmFreeCodeCamp Challenge 2 accepted! I&#39;m making myself available to mentor a freeCodeCamp student on a weekly basis! Please RT for reach! DMs are open everyone! Thank you @freeCodeCamp, thank you @ossia! 💙"
+                data-url="https://iamfreecodecamp.org"
+                data-hashtags="iAmFreeCodeCamp #freeCodeCamp"
+                data-show-count="false">
+                Tweet
+              </a>
+              <script
+                async
+                src="https://platform.twitter.com/widgets.js"
+                charset="utf-8"></script>
             </div>
           </div>
           <div
@@ -175,8 +200,21 @@ export default function Home() {
               thankful for the amazing opportunity!!
             </div>
             <div>#iAmFreeCodeCamp @iAmFreeCodeCamp</div>
-            <div className="flex justify-end pt-6">
-              <Twitter className="h-24 w-24 hover:text-blue-400 transition duration-300 ease-in-out cursor-pointer" />
+            <div className="flex justify-end">
+              <a
+                href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+                className="twitter-share-button"
+                data-size="large"
+                data-text="#iAmFreeCodeCamp Challenge 3 accepted! I&#39;m making myself available to meet other freeCodeCamp Alumni! RT for reach! DMs are open everyone! Thank you @freeCodeCamp, thank you @ossia! 💙"
+                data-url="https://iamfreecodecamp.org"
+                data-hashtags="iAmFreeCodeCamp #freeCodeCamp"
+                data-show-count="false">
+                Tweet
+              </a>
+              <script
+                async
+                src="https://platform.twitter.com/widgets.js"
+                charset="utf-8"></script>
             </div>
           </div>
           <div className="pt-8">

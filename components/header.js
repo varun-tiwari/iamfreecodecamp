@@ -1,4 +1,4 @@
-import Twitter from '../public/assets/icons/twitter.svg';
+import { FaTwitter } from 'react-icons/fa';
 
 const links = [
   { path: '#donate', label: 'Donate', isActive: false },
@@ -9,22 +9,20 @@ const links = [
 const NavigationBar = () => {
   return (
     <div className="text-blue-500 flex items-center justify-between p-2 md:p-4">
-      <a
-        href="/"
-        className="text-sm sm:text-xl md:text-2xl hover:underline py-1">
+      <div className="font-bold text-sm sm:text-xl md:text-2xl py-1">
         #iAmFreeCodeCamp
-      </a>
-      <div className="flex items-center ml-auto">
+      </div>
+      <div className="flex items-center gap-1 sm:gap-4 ml-auto">
         {links.map(({ path, label }) => (
           <a
             key={path}
             href={path}
-            className={`text-sm sm:text-xl md:text-2xlhover:bg-blue-500 hover:text-gray-50 px-2 py-1 transition duration-300 ease-in-out`}>
+            className={`text-sm sm:text-xl md:text-2xl hover:bg-blue-500 hover:text-gray-50 px-2 py-1 transition duration-300 ease-in-out`}>
             {label}
           </a>
         ))}
         <a href="#" target="_blank" rel="noreferrer noopener">
-          <Twitter className="w-4 h-4 ml-6 sm:w-8 sm:h-8 hover:text-blue-400" />
+          <FaTwitter className="w-4 h-4 sm:ml-6 sm:w-8 sm:h-8 hover:text-twitter-200 text-twitter-100 transition duration-300 ease-in-out" />
         </a>
       </div>
     </div>
@@ -35,7 +33,7 @@ const HeaderImage = () => {
   return (
     <img
       className="border"
-      src="/assets/header/desk.jpg"
+      src="/assets/header/header-image.jpg"
       alt="do something great"
     />
   );

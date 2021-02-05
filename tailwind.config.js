@@ -24,6 +24,10 @@ module.exports = {
       },
       white: {
         ...colors.white
+      },
+      twitter: {
+        100: '#1B95E0',
+        200: '#0C7ABF'
       }
     }
   },
