@@ -39,10 +39,11 @@ export default function Home() {
             do it:
             <a
               className="underline hover:no-underline px-2"
-              href="https://www.freecodecamp.org/news/p/fb5041e9-b097-4baf-ba5e-88b7a8043e2a/"
+              href="https://blog.eduardovedes.com/introducing-iamfreecodecamp-a-movement-to-raise-awareness-for-the-open-source-community"
               target="_blank"
               rel="noreferrer noopener">
-              &rdquo;The Importance Of Being freeCodeCamp&rdquo;
+              Introducing #iamfreeCodeCamp – A Movement to Raise Awareness for
+              the Open Source Community
             </a>
           </div>
           <div className="pt-8">
