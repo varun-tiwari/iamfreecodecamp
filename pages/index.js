@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>#iAmFreeCodeCamp</title>
+        <title>#iamfreeCodeCamp</title>
         <meta
           property="og:title"
           name="viewport"
@@ -32,7 +32,7 @@ export default function Home() {
               @eduardovedes
             </a>{' '}
             and I&apos;ve created this project so that you can join me on the
-            #iAmFreeCodeCamp challenge.
+            #iamfreeCodeCamp challenge.
           </div>
           <div className="pt-8">
             If you haven&apos;t read the article that originated it feel free to
@@ -71,8 +71,16 @@ export default function Home() {
           <div className="pt-8">
             So, if you&apos;re a Student you can start to pay it forward (if you
             have the possiblity, of course) accepting the first challenge! You
-            can also follow @iAmFreeCodeCamp so that you can find a mentor
-            (alumni) to help you guide your way through learning how to code!
+            can also follow{' '}
+            <a
+              className="underline hover:no-underline"
+              href="https://twitter.com/iamfreecodecamp"
+              targe="_blank"
+              rel="noopener noreferrer">
+              @iamfreecodecamp
+            </a>{' '}
+            so that you can find a mentor (alumni) to help you guide your way
+            through learning how to code!
           </div>
           <div className="pt-8">
             If you are an Alumni, you already work in the industry and have some
@@ -109,7 +117,7 @@ export default function Home() {
                 Tweet monthly about your donation and about the importance of
                 being freeCodeCamp.
               </div>
-              <div>#iAmFreeCodeCamp @iAmFreeCodeCamp</div>
+              <div>#iamfreeCodeCamp @iamfreecodecamp</div>
               <div>
                 This way we can motivate more and more people to do it with us.
               </div>
@@ -118,9 +126,9 @@ export default function Home() {
                   href="https://twitter.com/share?ref_src=twsrc%5Etfw"
                   className="twitter-share-button"
                   data-size="large"
-                  data-text="#iAmFreeCodeCamp Challenge 1 accepted! This year I&#39;m donating $XX monthly to improve nonprofit sustainability and help more students to learn how to code during these hard times. Thank you @freeCodeCamp, thank you @ossia! 💙"
+                  data-text="#iamfreeCodeCamp Challenge 1 accepted! This year I&#39;m donating $XX monthly to improve nonprofit sustainability and help more students to learn how to code during these hard times. Thank you @freeCodeCamp, thank you @ossia! 💙"
                   data-url="https://iamfreecodecamp.org"
-                  data-hashtags="iAmFreeCodeCamp #freeCodeCamp"
+                  data-hashtags="iamfreeCodeCamp #freeCodeCamp"
                   data-show-count="false">
                   Tweet
                 </a>
@@ -157,7 +165,7 @@ export default function Home() {
               experience and about your students progress! Be positive above
               all!
             </div>
-            <div>#iAmFreeCodeCamp @iAmFreeCodeCamp</div>
+            <div>#iamfreeCodeCamp @iamfreecodecamp</div>
             <div>
               This way we can provide a more personal support to help surpassing
               the growing pains of learning to code.
@@ -167,9 +175,9 @@ export default function Home() {
                 href="https://twitter.com/share?ref_src=twsrc%5Etfw"
                 className="twitter-share-button"
                 data-size="large"
-                data-text="#iAmFreeCodeCamp Challenge 2 accepted! I&#39;m making myself available to mentor a freeCodeCamp student on a weekly basis! Please RT for reach! DMs are open everyone! Thank you @freeCodeCamp, thank you @ossia! 💙"
+                data-text="#iamfreeCodeCamp Challenge 2 accepted! I&#39;m making myself available to mentor a freeCodeCamp student on a weekly basis! Please RT for reach! DMs are open everyone! Thank you @freeCodeCamp, thank you @ossia! 💙"
                 data-url="https://iamfreecodecamp.org"
-                data-hashtags="iAmFreeCodeCamp #freeCodeCamp"
+                data-hashtags="iamfreeCodeCamp #freeCodeCamp"
                 data-show-count="false">
                 Tweet
               </a>
@@ -199,15 +207,15 @@ export default function Home() {
               Tweet about it! Give a shout-out to your new friend and always be
               thankful for the amazing opportunity!!
             </div>
-            <div>#iAmFreeCodeCamp @iAmFreeCodeCamp</div>
+            <div>#iamfreeCodeCamp @iamfreecodecamp</div>
             <div className="flex justify-end">
               <a
                 href="https://twitter.com/share?ref_src=twsrc%5Etfw"
                 className="twitter-share-button"
                 data-size="large"
-                data-text="#iAmFreeCodeCamp Challenge 3 accepted! I&#39;m making myself available to meet other freeCodeCamp Alumni! RT for reach! DMs are open everyone! Thank you @freeCodeCamp, thank you @ossia! 💙"
+                data-text="#iamfreeCodeCamp Challenge 3 accepted! I&#39;m making myself available to meet other freeCodeCamp Alumni! RT for reach! DMs are open everyone! Thank you @freeCodeCamp, thank you @ossia! 💙"
                 data-url="https://iamfreecodecamp.org"
-                data-hashtags="iAmFreeCodeCamp #freeCodeCamp"
+                data-hashtags="iamfreeCodeCamp #freeCodeCamp"
                 data-show-count="false">
                 Tweet
               </a>
@@ -219,8 +227,8 @@ export default function Home() {
           </div>
           <div className="pt-8">
             Again, dont&apos; forget to use the handler{' '}
-            <span className="font-bold">@iAmFreeCodeCamp</span> and the tag{' '}
-            <span className="font-bold">#iAmFreeCodeCamp</span>
+            <span className="font-bold">@iamfreecodecamp</span> and the tag{' '}
+            <span className="font-bold">#iamfreeCodeCamp</span>
           </div>
           <div className="pt-8">Rock on!! Let&apos;s do it Peeps!</div>
         </div>

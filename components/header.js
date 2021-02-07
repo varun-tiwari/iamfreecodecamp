@@ -10,7 +10,7 @@ const NavigationBar = () => {
   return (
     <div className="text-blue-500 flex items-center justify-between p-2 md:p-4">
       <div className="font-bold text-sm sm:text-xl md:text-2xl py-1">
-        #iAmFreeCodeCamp
+        #iamfreeCodeCamp
       </div>
       <div className="flex items-center gap-1 sm:gap-4 ml-auto">
         {links.map(({ path, label }) => (
@@ -21,7 +21,10 @@ const NavigationBar = () => {
             {label}
           </a>
         ))}
-        <a href="#" target="_blank" rel="noreferrer noopener">
+        <a
+          href="https://twitter.com/iamfreecodecamp"
+          target="_blank"
+          rel="noreferrer noopener">
           <FaTwitter className="w-4 h-4 sm:ml-6 sm:w-8 sm:h-8 hover:text-twitter-200 text-twitter-100 transition duration-300 ease-in-out" />
         </a>
       </div>

@@ -9,10 +9,13 @@ const Footer = () => {
         </a>
       </div>
       <div className="flex flex-col items-center p-2 pt-6 bg-gray-500 border">
-        <a href="#" target="_blank" rel="noreferrer noopener">
+        <a
+          href="https://twitter.com/iamfreecodecamp"
+          target="_blank"
+          rel="noreferrer noopener">
           <FaTwitter className="w-4 h-4 sm:w-8 sm:h-8 text-twitter-100 hover:text-twitter-200 transition duration-300 ease-in-out" />
         </a>
-        <div className="font-bold text-lg">#iAmFreeCodeCamp</div>
+        <div className="font-bold text-lg">#iamfreeCodeCamp</div>
         <div className="text-sm">
           <a
             className="hover:underline"
