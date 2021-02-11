@@ -17,7 +17,7 @@ export default function Home() {
         <meta
           property="og:title"
           name="viewport"
-          content="initial-scale=1.0, width=device-width"
+          content="iamfreeCodeCamp. 1.Donate, 2.Mentor, 3.Meet"
         />
         <link rel="shortcut icon" href="/favicon/favicon.ico" />
       </Head>
