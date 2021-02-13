@@ -1,5 +1,10 @@
 import Head from 'next/head';
 import Layout from '../components/layout';
+import {
+  TweetDonation,
+  TweetMentorship,
+  TweetMeeting
+} from '../components/twitter-buttons';
 
 const Title = ({ children }) => {
   return (
@@ -21,49 +26,99 @@ export default function Home() {
         <div className="w-full pt-8">
           <div className="pt-8">Hey everyone, 👋</div>
           <div className="pt-8">
-            My name is{' '}
+            I&apos;m{' '}
             <a
               className="underline hover:no-underline"
               href="https://twitter.com/eduardovedes">
-              @eduardovedes
+              Edo
             </a>{' '}
-            and I&apos;ve created this project so that you can join me on the
-            #iamfreeCodeCamp challenge.
-          </div>
-          <div className="pt-8">
-            If you haven&apos;t read the article that originated it feel free to
-            do it:
+            and this is{' '}
+            <span className="font-bold">#iamfreeCodeCamp Challenge</span>.
+            I&apos;d love you to join me on this 3x quest to{' '}
+            <span className="font-bold">donate</span>,{' '}
+            <span className="font-bold">mentor</span> students and{' '}
+            <span className="font-bold">meet</span> other Alumni. You might want
+            to know more about it, so here&apos;s the
             <a
               className="underline hover:no-underline px-2"
               href="https://blog.eduardovedes.com/introducing-iamfreecodecamp-a-movement-to-raise-awareness-for-the-open-source-community"
               target="_blank"
               rel="noreferrer noopener">
-              Introducing #iamfreeCodeCamp – A Movement to Raise Awareness for
-              the Open Source Community
+              blog post
             </a>
-          </div>
-          <div className="pt-8">
-            By the way, you can read my story{' '}
+            that originated this idea. If you want to know more about me feel
+            free to do it on{' '}
+            <a
+              className="underline hover:nounderline"
+              href="https://eduardovedes.com">
+              eduardovedes.com
+            </a>
+            . You might also be interested in knowing how I went from{' '}
             <a
               className="underline hover:nounderline"
               href="https://www.freecodecamp.org/news/from-civil-engineer-to-web-developer-with-freecodecamp/">
-              here
-            </a>
-            . That&apos;s not much of a story but it&apos;s my own, and I felt
-            it was meaningful to share it with the world.
+              Civil Engineer to Web Developer
+            </a>{' '}
+            using freeCodeCamp to learn to code.
           </div>
-          <Title>The Challenge</Title>
-          <div className="text-2xl sm:text-3xl p-12 mt-8 border bg-blue-500 text-gray-500">
+          <div className="pt-8">
+            Quick intro is done, let&apos;s focus on what matters!{' '}
+            <span className="font-bold">
+              If you&apos;re in a hurry just check the TL;DR section
+            </span>
+            , otherwise grab a cup of coffee ☕ and we&apos;re ready to go.
+          </div>
+          <Title>TL;DR</Title>
+          <div className="text-xl sm:text-3xl p-12 mt-8 border bg-blue-500 text-gray-500">
             The main idea behind this (triple) challenge is to increase
             sustainability of the nonprofit and invest our time contributing to
             freeCodeCamp in 3 distinct vectors:
-            <div className="p-4">💰 Donate</div>
-            <div className="p-4">🌈 Mentor students</div>
-            <div className="p-4">💙 Meet alumni</div>
+            <div className="flex items-center justify-between py-4">
+              <div>
+                <span className="mr-1">💰</span> Donate
+              </div>
+              <div>
+                <TweetDonation />
+              </div>
+            </div>
+            <div className="flex items-center justify-between py-4">
+              <div>
+                <span className="mr-1">🌈 </span>Mentor students
+              </div>
+              <div>
+                <TweetMentorship />
+              </div>
+            </div>
+            <div className="flex items-center justify-between py-4">
+              <div>
+                <span className="mr-1">💙</span> Meet alumni
+              </div>
+              <div>
+                <TweetMeeting />
+              </div>
+            </div>
+            <div className="py-4">RULES:</div>
+            <div className="py-1">
+              1. Pick one, two or the three challenges! Check how to donate{' '}
+              <a
+                className="text-xl sm:text-3xl underline hover:no-underline"
+                href="https://www.freecodecamp.org/news/how-to-donate-to-free-code-camp/">
+                here
+              </a>
+              .
+            </div>
+            <div className="py-1">
+              2. Tweet about it using the buttons above 👆
+            </div>
+            <div className="py-1">
+              3. Focus on helping people! Feeling great about it will be our
+              profit!! 🎉
+            </div>
           </div>
+          <Title>The Challenge</Title>
           <div className="pt-8">
-            This challenge is mostly directioned to Alumni, but students can
-            also participate.
+            This challenge is more directioned towards fCC Alumni, but students
+            and friends can also participate.
           </div>
           <div className="pt-8">
             So, if you&apos;re a Student you can start to pay it forward (if you
@@ -82,10 +137,11 @@ export default function Home() {
           <div className="pt-8">
             If you are an Alumni, you already work in the industry and have some
             experience. You&apos;re ready to take the 3 challenges! Donate,
-            mentor a student and meet your colleagues! Have fun! 🎉
+            mentor a student and meet your colleagues!
           </div>
           <div className="pt-8">
-            One thing I&apos;m sure! We&apos;ll all be winning in the end!
+            One thing I&apos;m sure! We&apos;ll all be winning in the end! Have
+            fun! 🎉
           </div>
           <Title>The Rules</Title>
           <div
@@ -118,22 +174,7 @@ export default function Home() {
               <div>
                 This way we can motivate more and more people to do it with us.
               </div>
-              <div className="flex justify-end">
-                <a
-                  href="https://twitter.com/share?ref_src=twsrc%5Etfw"
-                  className="twitter-share-button"
-                  data-size="large"
-                  data-text="#iamfreeCodeCamp Challenge 1 accepted! This year I&#39;m donating $XX monthly to improve nonprofit sustainability and help more students to learn how to code during these hard times. Thank you @freeCodeCamp, thank you @ossia! 💙"
-                  data-url="https://iamfreecodecamp.org"
-                  data-hashtags="iamfreeCodeCamp #freeCodeCamp"
-                  data-show-count="false">
-                  Tweet
-                </a>
-                <script
-                  async
-                  src="https://platform.twitter.com/widgets.js"
-                  charset="utf-8"></script>
-              </div>
+              <TweetDonation />
             </div>
           </div>
           <div
@@ -167,22 +208,7 @@ export default function Home() {
               This way we can provide a more personal support to help surpassing
               the growing pains of learning to code.
             </div>
-            <div className="flex justify-end">
-              <a
-                href="https://twitter.com/share?ref_src=twsrc%5Etfw"
-                className="twitter-share-button"
-                data-size="large"
-                data-text="#iamfreeCodeCamp Challenge 2 accepted! I&#39;m making myself available to mentor a freeCodeCamp student on a weekly basis! Please RT for reach! DMs are open everyone! Thank you @freeCodeCamp, thank you @ossia! 💙"
-                data-url="https://iamfreecodecamp.org"
-                data-hashtags="iamfreeCodeCamp #freeCodeCamp"
-                data-show-count="false">
-                Tweet
-              </a>
-              <script
-                async
-                src="https://platform.twitter.com/widgets.js"
-                charset="utf-8"></script>
-            </div>
+            <TweetMentorship />
           </div>
           <div
             id="meet"
@@ -192,7 +218,7 @@ export default function Home() {
               (only for Alumni to meet one another)
             </span>
           </div>
-          <div className="bg-red-400 text-gray-50 p-12 text-6xl">
+          <div className="bg-red-400 text-gray-50 items-center p-4 sm:p-12 text-4xl sm:text-6xl">
             Make yourself available to meet other alumni
           </div>
           <div className="text-xl p-12 bg-blue-500 text-gray-50">
@@ -205,22 +231,7 @@ export default function Home() {
               thankful for the amazing opportunity!!
             </div>
             <div>#iamfreeCodeCamp @iamfreecodecamp</div>
-            <div className="flex justify-end">
-              <a
-                href="https://twitter.com/share?ref_src=twsrc%5Etfw"
-                className="twitter-share-button"
-                data-size="large"
-                data-text="#iamfreeCodeCamp Challenge 3 accepted! I&#39;m making myself available to meet other freeCodeCamp Alumni! RT for reach! DMs are open everyone! Thank you @freeCodeCamp, thank you @ossia! 💙"
-                data-url="https://iamfreecodecamp.org"
-                data-hashtags="iamfreeCodeCamp #freeCodeCamp"
-                data-show-count="false">
-                Tweet
-              </a>
-              <script
-                async
-                src="https://platform.twitter.com/widgets.js"
-                charset="utf-8"></script>
-            </div>
+            <TweetMeeting />
           </div>
           <div className="pt-8">
             Again, dont&apos; forget to use the handler{' '}

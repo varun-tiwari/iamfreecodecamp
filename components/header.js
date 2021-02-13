@@ -12,12 +12,12 @@ const NavigationBar = () => {
       <div className="font-bold text-sm sm:text-xl md:text-2xl py-1">
         #iamfreeCodeCamp
       </div>
-      <div className="flex items-center gap-1 sm:gap-4 ml-auto">
+      <div className="flex items-center gap-0 sm:gap-4 ml-auto">
         {links.map(({ path, label }) => (
           <a
             key={path}
             href={path}
-            className={`text-sm sm:text-xl md:text-2xl hover:bg-blue-500 hover:text-gray-50 px-2 py-1 transition duration-300 ease-in-out`}>
+            className={`font-bold text-sm sm:text-xl md:text-2xl hover:bg-blue-500 hover:text-gray-50 px-2 py-1 transition duration-300 ease-in-out`}>
             {label}
           </a>
         ))}
