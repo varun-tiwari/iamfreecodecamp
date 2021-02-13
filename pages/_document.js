@@ -7,7 +7,7 @@ class MyDocument extends Document {
   }
 
   render() {
-    const GA_MEASUREMENT_ID = 'GA_ID';
+    const GA_MEASUREMENT_ID = 'G-WL73Y98MF1';
     return (
       <Html lang="en">
         <Head>
