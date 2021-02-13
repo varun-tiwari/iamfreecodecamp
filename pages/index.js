@@ -19,7 +19,11 @@ export default function Home() {
     <Layout>
       <Head>
         <title>#iamfreeCodeCamp</title>
-        <meta property="og:title" content="iamfreeCodeCamp" key="title" />
+        <meta
+          property="og:title"
+          content="#iamfreeCodeCamp Challenge"
+          key="title"
+        />
         <link rel="shortcut icon" href="/favicon/favicon.ico" />
       </Head>
       <div>
