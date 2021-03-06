@@ -1,6 +1,6 @@
 # Welcome to #iamfreeCodeCamp
 
-## What is iamfreeCodeCamp?
+## What is #iamfreeCodeCamp?
 
 **#iamfreeCodeCamp** is a movement to raise awareness for the Open Source Community.
 It's built around the freeCodeCamp community and it's presented as a challenge with the following goals:
@@ -25,7 +25,7 @@ If you want to tackle an issue:
 
 The website is a Next.js app. It automatically deploys to Vercel when the master branch is updated.
 
-## #iamfreeCodeCamp Team
+## Team
 
 1. Eduardo Vedes (eduardo.vedes@gmail.com)
 2. Can Ural (can.ural@outlook.com)
