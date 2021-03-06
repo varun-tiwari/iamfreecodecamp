@@ -1,34 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Welcome to #iamfreeCodeCamp
 
-## Getting Started
+## What is iamfreeCodeCamp?
 
-First, run the development server:
+**#iamfreeCodeCamp** is a movement to raise awareness for the Open Source Community.
+It's built around the freeCodeCamp community and it's presented as a challenge with the following goals:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1.  helping the non-profit to increase its sustainability by raising awareness on Alumni and Students to donate.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2.  provide mentorship to the students
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+3.  make Alumni get to know one another.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## How to contribute?
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+If you have any suggestion please raise an issue in our repo.
 
-## Learn More
+If you want to tackle an issue:
 
-To learn more about Next.js, take a look at the following resources:
+    1. create a fork from iamfreecodecamp repo
+    2. create a feature branch
+    3. create a PR with detailed and well documented descriptions about what your doing.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Website
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The website is a Next.js app. It automatically deploys to Vercel when the master branch is updated.
 
-## Deploy on Vercel
+## #iamfreeCodeCamp Team
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Eduardo Vedes (eduardo.vedes@gmail.com)
+2. Can Ural (can.ural@outlook.com)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributors
