@@ -19,7 +19,7 @@ If you want to tackle an issue:
 
     1. create a fork from iamfreecodecamp repo
     2. create a feature branch
-    3. create a PR with detailed and well documented descriptions about what your doing.
+    3. create a PR to our `develop`branch with detailed and well documented descriptions about what your doing.
 
 ## Website
 
