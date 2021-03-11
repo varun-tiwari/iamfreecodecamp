@@ -1,25 +1,33 @@
+import Link from 'next/link';
 import { FaTwitter } from 'react-icons/fa';
 
+// const links = [
+//   { path: '#donate', label: 'Donate', isActive: false },
+//   { path: '#mentor', label: 'Mentor', isActive: false },
+//   { path: '#meet', label: 'Meet', isActive: false }
+// ];
+
 const links = [
-  { path: '#donate', label: 'Donate', isActive: false },
-  { path: '#mentor', label: 'Mentor', isActive: false },
-  { path: '#meet', label: 'Meet', isActive: false }
+  { path: '/team', label: 'Team', isActive: false },
+  { path: '/mentors', label: 'Mentors', isActive: false }
 ];
 
 const NavigationBar = () => {
   return (
-    <div className="text-blue-500 flex items-center justify-between p-2 md:p-4">
-      <div className="font-bold text-sm sm:text-xl md:text-2xl py-1">
-        #iamfreeCodeCamp
-      </div>
+    <div className="text-blue-500 flex items-center justify-between py-2 md:py-4">
+      <Link href="/">
+        <a className="font-bold text-sm sm:text-xl md:text-2xl py-1">
+          #iamfreeCodeCamp
+        </a>
+      </Link>
       <div className="flex items-center gap-0 sm:gap-4 ml-auto">
         {links.map(({ path, label }) => (
-          <a
-            key={path}
-            href={path}
-            className={`font-bold text-sm sm:text-xl md:text-2xl hover:bg-blue-500 hover:text-gray-50 px-2 py-1 transition duration-300 ease-in-out`}>
-            {label}
-          </a>
+          <Link key={path} href={path}>
+            <a
+              className={`font-bold text-sm sm:text-xl md:text-2xl hover:bg-blue-500 hover:text-gray-50 px-2 py-1 transition duration-300 ease-in-out`}>
+              {label}
+            </a>
+          </Link>
         ))}
         <a
           href="https://twitter.com/iamfreecodecamp"
@@ -32,21 +40,6 @@ const NavigationBar = () => {
   );
 };
 
-const HeaderImage = () => {
-  return (
-    <img
-      className="border"
-      src="/assets/header/header-image.jpg"
-      alt="do something great"
-    />
-  );
-};
-
 export default function Header() {
-  return (
-    <div>
-      <NavigationBar />
-      <HeaderImage />
-    </div>
-  );
+  return <NavigationBar />;
 }

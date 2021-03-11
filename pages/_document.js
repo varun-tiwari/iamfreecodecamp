@@ -9,7 +9,7 @@ class MyDocument extends Document {
   render() {
     const GA_MEASUREMENT_ID = 'G-WL73Y98MF1';
     return (
-      <Html lang="en">
+      <Html lang="en" className="overflow-y-scroll">
         <Head>
           <script
             async

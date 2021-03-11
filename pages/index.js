@@ -14,6 +14,16 @@ const Title = ({ children }) => {
   );
 };
 
+const HeaderImage = () => {
+  return (
+    <img
+      className="border h-96 w-full object-cover object-bottom"
+      src="/assets/header/header-image.jpg"
+      alt="do something great"
+    />
+  );
+};
+
 export default function Home() {
   return (
     <Layout>
@@ -26,6 +36,7 @@ export default function Home() {
         />
         <link rel="shortcut icon" href="/favicon/favicon.ico" />
       </Head>
+      <HeaderImage />
       <div>
         <div className="w-full pt-8">
           <div className="pt-8">Hey everyone, 👋</div>
@@ -73,7 +84,7 @@ export default function Home() {
             , otherwise grab a cup of coffee ☕ and we&apos;re ready to go.
           </div>
           <Title>TL;DR</Title>
-          <div className="text-xl sm:text-3xl p-12 mt-8 border bg-blue-500 text-gray-500">
+          <div className="text-xl sm:text-3xl md:p-12 p-8 mt-8 border bg-blue-500 text-gray-500">
             The main idea behind this (triple) challenge is to increase
             sustainability of the nonprofit and invest our time contributing to
             freeCodeCamp in 3 distinct vectors:
