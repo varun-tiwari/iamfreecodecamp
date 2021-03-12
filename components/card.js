@@ -19,8 +19,9 @@ export default function Card({ team }) {
             <a
               href={`https://twitter.com/${team.twitter}`}
               target="_blank"
-              rel="noreferrer noopener">
-              <FaTwitter className="w-5  h-5  hover:text-twitter-200 text-twitter-100 transition duration-300 ease-in-out" />
+              rel="noreferrer noopener"
+              className="my-auto">
+              <FaTwitter className="w-5 h-5 hover:text-twitter-200 text-twitter-100 transition duration-300 ease-in-out" />
             </a>
             <a
               href={`https://www.linkedin.com/in/${team.linkedIn}/`}

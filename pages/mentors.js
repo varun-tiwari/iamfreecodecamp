@@ -19,7 +19,6 @@ const mentors = [
 ];
 
 export default function Mentors() {
-  console.log('mentors');
   return (
     <Layout>
       <div className="md:grid grid-cols-2 gap-4 mt-8">

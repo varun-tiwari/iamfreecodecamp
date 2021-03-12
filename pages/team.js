@@ -23,7 +23,6 @@ const teamMembers = [
 ];
 
 export default function Team() {
-  console.log('team');
   return (
     <Layout>
       <div className="md:grid grid-cols-2 gap-4 mt-8">

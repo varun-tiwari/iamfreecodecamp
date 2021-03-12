@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { FaTwitter } from 'react-icons/fa';
 
 // const links = [
@@ -13,6 +14,8 @@ const links = [
 ];
 
 const NavigationBar = () => {
+  const router = useRouter();
+  const activeClasses = 'bg-blue-500 text-gray-50';
   return (
     <div className="text-blue-500 flex items-center justify-between py-2 md:py-4">
       <Link href="/">
@@ -24,7 +27,9 @@ const NavigationBar = () => {
         {links.map(({ path, label }) => (
           <Link key={path} href={path}>
             <a
-              className={`font-bold text-sm sm:text-xl md:text-2xl hover:bg-blue-500 hover:text-gray-50 px-2 py-1 transition duration-300 ease-in-out`}>
+              className={`${
+                router.pathname === path ? activeClasses : null
+              } font-bold text-sm sm:text-xl md:text-2xl hover:bg-blue-500 hover:text-gray-50 px-2 py-1 transition duration-300 ease-in-out`}>
               {label}
             </a>
           </Link>
