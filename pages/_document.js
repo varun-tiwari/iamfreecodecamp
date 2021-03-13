@@ -9,7 +9,7 @@ class MyDocument extends Document {
   render() {
     const GA_MEASUREMENT_ID = 'G-WL73Y98MF1';
     return (
-      <Html lang="en">
+      <Html lang="en" className="overflow-y-scroll">
         <Head>
           <script
             async
@@ -29,7 +29,7 @@ class MyDocument extends Document {
             }}
           />
         </Head>
-        <body>
+        <body className=" bg-gray-50">
           <Main />
           <NextScript />
         </body>

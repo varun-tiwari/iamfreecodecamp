@@ -28,6 +28,10 @@ module.exports = {
       twitter: {
         100: '#1B95E0',
         200: '#0C7ABF'
+      },
+      linkedIn: {
+        100: '#2867B2',
+        200: '#1e518f'
       }
     }
   },
