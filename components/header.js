@@ -2,12 +2,6 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { FaTwitter } from 'react-icons/fa';
 
-// const links = [
-//   { path: '#donate', label: 'Donate', isActive: false },
-//   { path: '#mentor', label: 'Mentor', isActive: false },
-//   { path: '#meet', label: 'Meet', isActive: false }
-// ];
-
 const links = [
   { path: '/team', label: 'Team', isActive: false },
   { path: '/mentors', label: 'Mentors', isActive: false }
