@@ -7,7 +7,7 @@ export default function Team() {
       <div className=" mt-8 ">
         {/* Edu */}
         <div className="md:flex border-solid border-2 border-gray-200  rounded-md shadow-lg">
-          <div className="bg-gray-100 p-8 w-full md:w-5/12 lg:w-1/4 ">
+          <div className="bg-gray-100 p-8 w-full md:w-5/12 lg:w-2/5 xl:w-1/4 ">
             <img
               src="/assets/team/eduardo.jpg"
               alt=""
@@ -33,7 +33,7 @@ export default function Team() {
             </div>
           </div>
 
-          <div className="w-full md:w-7/12 lg:w-3/4 px-4 py-8 sm:p-12">
+          <div className="w-full md:w-7/12 lg:w-3/5 xl:w-3/4 px-4 py-8 sm:p-12">
             <h1>
               I&apos;m Eduardo Vedes, friends call me Edo and you can call me
               too! <br />
@@ -60,7 +60,7 @@ export default function Team() {
 
         {/* Can */}
         <div className="md:flex border-solid border-2 border-gray-200  rounded-md shadow-lg mt-8">
-          <div className="bg-gray-100 p-8 w-full md:w-5/12 lg:w-1/4 ">
+          <div className="bg-gray-100 p-8 w-full md:w-5/12 lg:w-2/5 xl:w-1/4 ">
             <img
               src="/assets/team/can.jpg"
               alt=""
@@ -86,7 +86,7 @@ export default function Team() {
             </div>
           </div>
 
-          <div className="w-full md:w-7/12 lg:w-3/4  px-4 py-8 sm:p-12">
+          <div className="w-full md:w-7/12 lg:w-3/5 xl:w-3/4  px-4 py-8 sm:p-12">
             <h1>
               I am Can. <br /> I am a Full Stack Developer. Previously, a
               Helicopter Pilot. <br /> <br /> Yes, you read that

@@ -26,7 +26,17 @@ const Footer = () => {
           </a>{' '}
           - eduardo.vedes@gmail.com
         </div>
-        <div className="font-bold text-sm">2021</div>
+        <div className="flex">
+          <div className="font-bold text-sm my-auto mr-1">2021 - </div>
+          <div className="text-sm flex">
+            <span>Powered by</span>
+            <img
+              className="w-12 ml-1 relative top-px"
+              src="/assets/vercel/logo.svg"
+              alt="vercel logo"
+            />
+          </div>
+        </div>
       </div>
     </footer>
   );
