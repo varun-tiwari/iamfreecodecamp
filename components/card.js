@@ -3,7 +3,7 @@ import { FaTwitter, FaLinkedin } from 'react-icons/fa';
 export default function Card({ person }) {
   return (
     <figure
-      className="bg:white border-solid border-b-0 border-l-0 border-2 border-gray-100 md:flex rounded-lg overflow-hidden shadow-lg mb-4 lg:mb-0 "
+      className="bg:white border-solid border-b-0 border-l-0 border-2 border-gray-200 md:flex rounded-lg overflow-hidden shadow-lg mb-4 lg:mb-0 "
       key={person.name}>
       <img
         src={person.image}
