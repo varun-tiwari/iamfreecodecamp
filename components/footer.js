@@ -16,16 +16,7 @@ const Footer = () => {
           <FaTwitter className="w-4 h-4 sm:w-8 sm:h-8 text-twitter-100 hover:text-twitter-200 transition duration-300 ease-in-out" />
         </a>
         <div className="font-bold text-lg">#iamfreeCodeCamp</div>
-        <div className="text-sm">
-          <a
-            className="hover:underline"
-            href="https://eduardovedes.com"
-            targe="_blank"
-            rel="noopener noreferrer">
-            eduardovedes.com
-          </a>{' '}
-          - eduardo.vedes@gmail.com
-        </div>
+        <div className="text-sm">iamfreecodecamp@gmail.com</div>
         <div className="flex">
           <div className="font-bold text-sm my-auto mr-1">2021 - </div>
           <div className="text-sm flex">
