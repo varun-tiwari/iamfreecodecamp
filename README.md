@@ -38,7 +38,8 @@ The website is a Next.js app. It automatically deploys to Vercel when the master
 
 ## Sponsors
 
+Powered By
+
 <a href="https://vercel.com?utm_source=iamfreecodecamp&utm_campaign=oss">
-Powered by
 <img src="./public/assets/vercel/logo.svg" alt="logo">
 </a>
