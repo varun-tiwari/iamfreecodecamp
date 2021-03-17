@@ -5,7 +5,6 @@ export default function Team() {
   return (
     <Layout>
       <div className=" mt-8 ">
-        {/* Edu */}
         <div className="md:flex border-solid border-2 border-gray-200  rounded-md shadow-lg">
           <div className="bg-gray-100 p-8 w-full md:w-5/12 lg:w-2/5 xl:w-1/4 ">
             <img
@@ -58,7 +57,6 @@ export default function Team() {
           </div>
         </div>
 
-        {/* Can */}
         <div className="md:flex border-solid border-2 border-gray-200  rounded-md shadow-lg mt-8">
           <div className="bg-gray-100 p-8 w-full md:w-5/12 lg:w-2/5 xl:w-1/4 ">
             <img

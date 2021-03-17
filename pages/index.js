@@ -17,7 +17,7 @@ const Title = ({ children }) => {
 const HeaderImage = () => {
   return (
     <img
-      className="border h-48 sm:h-64 lg:h-96  w-full object-cover object-bottom"
+      className="border h-200px sm:h-300px md:h-400px lg:h-500px w-full object-cover object-bottom"
       src="/assets/header/header-image.jpg"
       alt="do something great"
     />
