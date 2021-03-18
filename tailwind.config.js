@@ -4,7 +4,14 @@ module.exports = {
   purge: ['./pages/**/*.js', './components/**/*.js'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        '200px': '200px',
+        '300px': '300px',
+        '400px': '400px',
+        '500px': '500px'
+      }
+    },
     colors: {
       blue: {
         ...colors.blue,

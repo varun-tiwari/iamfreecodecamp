@@ -17,7 +17,7 @@ const Title = ({ children }) => {
 const HeaderImage = () => {
   return (
     <img
-      className="border sm:h-96 lg:h-500 w-full object-cover object-bottom"
+      className="border h-200px sm:h-300px md:h-400px lg:h-500px w-full object-cover object-bottom"
       src="/assets/header/header-image.jpg"
       alt="do something great"
     />
@@ -39,17 +39,11 @@ export default function Home() {
       <HeaderImage />
       <div>
         <div className="w-full pt-8">
-          <div className="pt-8">Hey everyone, 👋</div>
+          <div>Hey everyone, 👋</div>
           <div className="pt-8">
-            I&apos;m{' '}
-            <a
-              className="underline hover:no-underline"
-              href="https://twitter.com/eduardovedes">
-              Edo
-            </a>{' '}
-            and this is{' '}
+            Welcome to the&nbsp;
             <span className="font-bold">#iamfreeCodeCamp Challenge</span>.
-            I&apos;d love you to join me on this 3x quest to{' '}
+            We&apos;d love you to join us on this 3x quest to{' '}
             <span className="font-bold">donate</span>,{' '}
             <span className="font-bold">mentor</span> students and{' '}
             <span className="font-bold">meet</span> other Alumni. You might want
@@ -61,27 +55,7 @@ export default function Home() {
               rel="noreferrer noopener">
               blog post
             </a>
-            that originated this idea. If you want to know more about me feel
-            free to do it on{' '}
-            <a
-              className="underline hover:nounderline"
-              href="https://eduardovedes.com">
-              eduardovedes.com
-            </a>
-            . You might also be interested in knowing how I went from{' '}
-            <a
-              className="underline hover:nounderline"
-              href="https://www.freecodecamp.org/news/from-civil-engineer-to-web-developer-with-freecodecamp/">
-              Civil Engineer to Web Developer
-            </a>{' '}
-            using freeCodeCamp to learn to code.
-          </div>
-          <div className="pt-8">
-            Quick intro is done, let&apos;s focus on what matters!{' '}
-            <span className="font-bold">
-              If you&apos;re in a hurry just check the TL;DR section
-            </span>
-            , otherwise grab a cup of coffee ☕ and we&apos;re ready to go.
+            that originated this idea.
           </div>
           <Title>TL;DR</Title>
           <div className="text-xl sm:text-3xl md:p-12 p-8 mt-8 border bg-blue-500 text-gray-500">
@@ -247,11 +221,6 @@ export default function Home() {
             </div>
             <div>#iamfreeCodeCamp @iamfreecodecamp</div>
             <TweetMeeting />
-          </div>
-          <div className="pt-8">
-            Again, dont&apos; forget to use the handler{' '}
-            <span className="font-bold">@iamfreecodecamp</span> and the tag{' '}
-            <span className="font-bold">#iamfreeCodeCamp</span>
           </div>
           <div className="pt-8">Rock on!! Let&apos;s do it Peeps!</div>
         </div>
