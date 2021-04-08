@@ -29,6 +29,8 @@ If you want to participate as a developer:
 
 How to write on our site
 
+A
+alumni, alumnus - lower case
 
 
 ## Website
