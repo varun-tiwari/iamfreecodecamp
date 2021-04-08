@@ -25,6 +25,12 @@ If you want to participate as a developer:
 
 3. create a PR to our `develop` branch with detailed and well documented descriptions about what your're doing (feature / enhancement / bug fix).
 
+## Style guide
+
+How to write on our site
+
+
+
 ## Website
 
 The website is a Next.js app. It automatically deploys to Vercel when the master branch is updated.
