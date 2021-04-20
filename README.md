@@ -30,7 +30,10 @@ If you want to participate as a developer:
 How to write on our site
 
 A
-alumni, alumnus - lower case
+alumni, alumnus - lower case.
+
+N
+Numbers one to nine spelled out. Use numerals for 10 and above.
 
 
 ## Website
