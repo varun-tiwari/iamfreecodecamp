@@ -109,7 +109,7 @@ export default function Team() {
         <div className="md:flex border-solid border-2 border-gray-200  rounded-md shadow-lg mt-8">
           <div className="bg-gray-100 p-8 w-full md:w-5/12 lg:w-2/5 xl:w-1/4 ">
             <img
-              src="/assets/team/dan.jpg"
+              src="https://avatars.githubusercontent.com/u/73940682?s=400&u=f3f1186d10bef56ead6d0841d401b7809463da16&v=4"
               alt=""
               className="w-40 h-40 sm:w-56 sm:h-56 rounded-full mx-auto"
             />
@@ -135,17 +135,21 @@ export default function Team() {
 
           <div className="w-full md:w-7/12 lg:w-3/5 xl:w-3/4  px-4 py-8 sm:p-12">
             <h1>
-              Hello, I&apos;m Dan, a front-end developer-in-waiting who&apos;s also 
-              arrived here after changing careers. <br /><br /> 
-              After 23 years as a reporter and in production for business magazines, 
-              I took voluntary redundancy in September 2020 and I&apos;ve been learning 
-              to code ever since. The past year has highlighted more than ever
-              the inevitability of change &ndash; and how it&apos;s vital we embrace it.<br /><br />
-              I&apos;m interested in languages, people, travel, history, music, film and politics.
-              Don&apos;t know what the collective noun for owls is? Look it up! 
-
-        
-            
+              Hello, I&apos;m Dan, a front-end developer-in-waiting who&apos;s
+              also arrived here after changing careers. <br />
+              <br />
+              After 23 years as a reporter and in production for business
+              magazines, I took voluntary redundancy in September 2020 and
+              I&apos;ve been learning to code ever since. The past year has
+              highlighted more than ever the inevitability of change &ndash; and
+              how it&apos;s vital we embrace it.
+              <br />
+              <br />
+              I&apos;m interested in languages, people, travel, history, music,
+              film and politics.
+              <br />
+              <br />
+              Don&apos;t know what the collective noun for owls is? Look it up!
             </h1>
           </div>
         </div>
