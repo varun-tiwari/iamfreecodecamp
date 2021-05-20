@@ -109,7 +109,7 @@ export default function Team() {
         <div className="md:flex border-solid border-2 border-gray-200  rounded-md shadow-lg mt-8">
           <div className="bg-gray-100 p-8 w-full md:w-5/12 lg:w-2/5 xl:w-1/4 ">
             <img
-              src="https://avatars.githubusercontent.com/u/73940682?s=400&u=f3f1186d10bef56ead6d0841d401b7809463da16&v=4"
+              src="/assets/team/dan1.jpg"
               alt=""
               className="w-40 h-40 sm:w-56 sm:h-56 rounded-full mx-auto"
             />
