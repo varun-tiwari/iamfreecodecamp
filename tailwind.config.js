@@ -1,7 +1,7 @@
-const colors = require('tailwindcss/colors');
+const colors = require('tailwindcss/colors')
 
 module.exports = {
-  purge: ['./pages/**/*.js', './components/**/*.js'],
+  purge: ['./pages/**/*.js', './components/**/*.js', './sections/**/*.js'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -13,6 +13,7 @@ module.exports = {
       }
     },
     colors: {
+      ...colors,
       blue: {
         ...colors.blue,
         400: '#1DA1F2',
@@ -23,14 +24,11 @@ module.exports = {
         ...colors.gray,
         500: '#EEEEF0'
       },
+      yellow: {
+        ...colors.yellow
+      },
       red: {
         ...colors.red
-      },
-      purple: {
-        ...colors.purple
-      },
-      white: {
-        ...colors.white
       },
       twitter: {
         100: '#1B95E0',
@@ -39,6 +37,10 @@ module.exports = {
       linkedIn: {
         100: '#2867B2',
         200: '#1e518f'
+      },
+      discord: {
+        100: '#6E85D2',
+        200: '#374269'
       }
     }
   },
@@ -46,4 +48,4 @@ module.exports = {
     extend: {}
   },
   plugins: []
-};
+}
