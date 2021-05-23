@@ -1,6 +1,6 @@
 export const TweetDonation = ({ size = 'large' }) => {
   return (
-    <div className="flex justify-end sm:pt-4">
+    <div className="sm:pt-4">
       <a
         href="https://twitter.com/share?ref_src=twsrc%5Etfw"
         className="twitter-share-button"
@@ -16,12 +16,12 @@ export const TweetDonation = ({ size = 'large' }) => {
         src="https://platform.twitter.com/widgets.js"
         charSet="utf-8"></script>
     </div>
-  );
-};
+  )
+}
 
 export const TweetMentorship = ({ size = 'large' }) => {
   return (
-    <div className="flex justify-end sm:pt-4">
+    <div className="sm:pt-4">
       <a
         href="https://twitter.com/share?ref_src=twsrc%5Etfw"
         className="twitter-share-button"
@@ -37,12 +37,12 @@ export const TweetMentorship = ({ size = 'large' }) => {
         src="https://platform.twitter.com/widgets.js"
         charSet="utf-8"></script>
     </div>
-  );
-};
+  )
+}
 
 export const TweetMeeting = ({ size = 'large' }) => {
   return (
-    <div className="flex justify-end">
+    <div>
       <a
         href="https://twitter.com/share?ref_src=twsrc%5Etfw"
         className="twitter-share-button"
@@ -58,5 +58,5 @@ export const TweetMeeting = ({ size = 'large' }) => {
         src="https://platform.twitter.com/widgets.js"
         charSet="utf-8"></script>
     </div>
-  );
-};
+  )
+}
