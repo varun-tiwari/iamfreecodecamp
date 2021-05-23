@@ -56,7 +56,7 @@ const Challenges = () => {
           Tweet monthly about your donation and about the importance of being
           freeCodeCamp.
         </div>
-        <div className="pt-2">
+        <div className="pt-2 text-sm">
           <TweetDonation />
           Use the tags #iamfreeCodeCamp, #freeCodeCamp and the handlers
           @freeCodeCamp and @iamfreecodecamp
@@ -93,7 +93,7 @@ const Challenges = () => {
           Tweet monthly about it! We want to know about your mentoring
           experience and about your students progress! Be positive above all!
         </div>
-        <div className="pt-2">
+        <div className="pt-2 text-sm">
           <TweetMentorship />
           Use the tags #iamfreeCodeCamp, #freeCodeCamp and the handlers
           @freeCodeCamp and @iamfreecodecamp
@@ -116,7 +116,7 @@ const Challenges = () => {
           Tweet about it! Give a shout-out to your new friend and always be
           thankful for the amazing opportunity!!
         </div>
-        <div className="pt-2">
+        <div className="pt-2 text-sm">
           <TweetMeeting />
           Use the tags #iamfreeCodeCamp, #freeCodeCamp and the handlers
           @freeCodeCamp and @iamfreecodecamp

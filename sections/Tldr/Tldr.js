@@ -52,7 +52,7 @@ const Tldr = () => {
             <div className="font-bold">
               Join us in our &nbsp;
               <a
-                className="font-bold underline"
+                className="font-bold underline hover:no-underline"
                 rel="noopener noreferrer"
                 href="https://discord.gg/kp3NQNKW9J"
                 target="_blank">

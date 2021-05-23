@@ -1,7 +1,7 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  purge: ['./pages/**/*.js', './components/**/*.js'],
+  purge: ['./pages/**/*.js', './components/**/*.js', './sections/**/*.js'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -23,6 +23,12 @@ module.exports = {
       gray: {
         ...colors.gray,
         500: '#EEEEF0'
+      },
+      yellow: {
+        ...colors.yellow
+      },
+      red: {
+        ...colors.red
       },
       twitter: {
         100: '#1B95E0',
