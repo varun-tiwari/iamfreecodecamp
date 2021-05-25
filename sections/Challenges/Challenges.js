@@ -13,7 +13,7 @@ const Challenges = () => {
         <div className="font-bold text-4xl">💰 &nbsp;Donate</div>
       </TextBlock>
       <TextBlock>
-        You choose if you want to donate $5, $50 or $500 USD. What&apos;s really
+        You choose if you want to donate $5, $50 or $500. What&apos;s really
         important here is that you keep donating every month in a consistent
         way.
       </TextBlock>
@@ -54,7 +54,7 @@ const Challenges = () => {
       <TextBlock>
         <div className="font-bold text-xl sm:text-2xl pt-4">
           Tweet monthly about your donation and about the importance of being
-          freeCodeCamp.
+          freeCodeCamp
         </div>
         <div className="pt-2 text-sm">
           <TweetDonation />
@@ -63,22 +63,22 @@ const Challenges = () => {
         </div>
         <div className="pt-2">
           This way we can motivate more and more people to do it with us. Every
-          penny is important, so no matter the size, but the contribution
-          &quot;per se&quot;.
+          penny counts, so no matter how much you donate, it&apos;s making that
+          contribution that counts.
         </div>
       </TextBlock>
       <TextBlock>
         <div className="font-bold text-4xl">🧑‍🏫 &nbsp;Mentor Students</div>
       </TextBlock>
       <TextBlock>
-        Make yourself available to mentor a student, making an every other week
-        one hour meeting (1:1).
+        Make yourself available to mentor a student via a one-to-one meeting for
+        an hour every other week.
       </TextBlock>
       <TextBlock>
         You choose if you want to mentor one or more students. What&apos;s
         important here is to provide some guidance and answer in a more intimate
-        way to all the questions students might have about learning to code,
-        career change, jobs, skills, age, etc.
+        way questions students might have, whether it be about learning to code,
+        changing careers, jobs, skills or age related.
       </TextBlock>
       <TextBlock>
         You can share your stories, prescribe a good book, a good talk.
@@ -91,7 +91,8 @@ const Challenges = () => {
       <TextBlock>
         <div className="font-bold text-xl sm:text-2xl pt-4">
           Tweet monthly about it! We want to know about your mentoring
-          experience and about your students progress! Be positive above all!
+          experience and about your students&apos; progress! Above all, be
+          positive!
         </div>
         <div className="pt-2 text-sm">
           <TweetMentorship />
@@ -100,18 +101,17 @@ const Challenges = () => {
         </div>
       </TextBlock>
       <TextBlock>
-        This way we can provide a more personal support to help surpassing the
-        growing pains of learning to code.
+        This way, we can provide more personal support to help people overcome
+        the growing pains of learning to code.
       </TextBlock>
       <TextBlock>
         <div className="font-bold text-4xl">🙃 &nbsp;Meet alumni</div>
       </TextBlock>
-      <TextBlock>Make yourself available to meet other alumni</TextBlock>
+      <TextBlock>Make yourself available to meet other alumni.</TextBlock>
       <TextBlock>
-        Maybe together you come up with great ideas, projects, a job for a
-        student. It will be fun to create this kind of networking. Due to
-        pandemic we&apos;ve been locked down. This can be the perfect
-        &rdquo;water cooler&rdquo;.
+        Maybe together you might come up with great ideas, projects, a job for a
+        student. Networking is fun and when people are still locked down because
+        of the pandemic, it&apos;s the perfect alternative to the water cooler.
         <div className="font-bold text-xl sm:text-2xl pt-4">
           Tweet about it! Give a shout-out to your new friend and always be
           thankful for the amazing opportunity!!
