@@ -4,12 +4,12 @@ const Tldr = () => {
   return (
     <>
       <TextBlock>
-        <div className="text-3xl">Hey everyone, 👋</div>
+        <div className="text-3xl">Hey everyone 👋</div>
         <div className="pt-4">
           Welcome to &nbsp;{' '}
           <span className="font-bold">
-            #iamfreeCodeCamp, a &quot;Movement to Raise Awareness for the Open
-            Source Community&quot;
+            #iamfreeCodeCamp, a movement to raise awareness for the open source
+            community!
           </span>
           !
         </div>
@@ -58,7 +58,7 @@ const Tldr = () => {
                 target="_blank">
                 Discord
               </a>
-              &nbsp; channel, let&apos;s have a chat!
+              &nbsp; channel and let&apos;s have a chat!
             </div>
           </div>
         </TextBlock>
@@ -91,10 +91,10 @@ const Tldr = () => {
               href="https://twitter.com/iamfreecodecamp"
               rel="noopener noreferrer"
               target="_blank">
-              twitter&nbsp;
+              twitter
             </a>
-            and to request a meeting with a mentor just to give you an overview
-            or to walk you through the first{' '}
+            &nbsp; and to request a meeting with a mentor just to give you an
+            overview or to walk you through the first{' '}
             <span className="font-bold">GROWING PAINS!</span>
           </div>
           <div className="text-2xl font-bold">
