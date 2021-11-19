@@ -1,4 +1,4 @@
-import { FaDiscord, FaTwitter } from 'react-icons/fa'
+import { FaDiscord, FaTwitter,FaReddit } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -22,6 +22,12 @@ const Footer = () => {
             rel="noreferrer noopener">
             <FaDiscord className="w-6 h-6 sm:w-8 sm:h-8 text-discord-100 hover:text-discord-200 transition duration-300 ease-in-out" />
           </a>
+          <a
+          href="https://www.reddit.com/r/iamfreeCodeCamp/"
+          target="_blank"
+          rel="noreferrer noopener">
+          <FaReddit className="w-6 h-6 sm:w-8 sm:h-8 hover:text-reddit-200 text-reddit-100 transition duration-300 ease-in-out" />
+        </a>
         </div>
         <div className="flex  flex-col items-center">
           <div className="font-bold text-xs sm:text-lg">#iamfreeCodeCamp</div>
