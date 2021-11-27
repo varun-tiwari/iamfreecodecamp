@@ -41,6 +41,10 @@ module.exports = {
       discord: {
         100: '#6E85D2',
         200: '#374269'
+      },
+      reddit:{
+        100:'#ffa500',
+        200:'#ff8c00'
       }
     }
   },
